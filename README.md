@@ -184,7 +184,7 @@ Visualisasi distribusi kelas:
 df.Potability.value_counts().plot(kind='pie', autopct='%1.1f%%', startangle=90, colors=['#1f77b4','#ff7f0e'], labels=['Tidak Layak', 'Layak'])
 ```
 
-![alt text](image.png)
+![alt text](img/image.png)
 
 - **Mengatasi Data Imbalance**
 
@@ -220,7 +220,7 @@ Menampilkan Hasil setelah di lakukan data imbalance
 balanced_df.Potability.value_counts().plot(kind ='pie')
 ```
 
-![alt text](image-1.png)
+![alt text](img/image-1.png)
 
 📌 Alasan Penggunaan Teknik Ini:
 model dapat menjadi bias terhadap kelas mayoritas dan mengabaikan kelas minoritas. Dalam konteks air minum, kesalahan mengklasifikasikan air tidak layak sebagai layak (false positive) dapat berdampak serius terhadap kesehatan.
